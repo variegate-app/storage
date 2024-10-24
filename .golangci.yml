@@ -1,0 +1,22 @@
+run:
+  tests: false
+  skip-dirs:
+    - vendor/
+
+  modules-download-mode: readonly
+
+linters-settings:
+  golint:
+    min-confidence: 0.3
+  gocyclo:
+    min-complexity: 20
+  dupl:
+    threshold: 200
+  lll:
+    line-length: 120
+  funlen:
+    statements: 100
+    lines: 160
+
+output:
+  format: tab
