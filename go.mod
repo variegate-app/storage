@@ -7,10 +7,9 @@ toolchain go1.23.2
 replace github.com/variegate-app/storage/cmd/api/parser => ../storage/cmd/api/parser
 
 require (
-	github.com/joho/godotenv v1.5.1
+	github.com/gorilla/mux v1.8.1
 	github.com/prometheus/client_golang v1.20.5
 	github.com/stretchr/testify v1.9.0
-	golang.org/x/exp v0.0.0-20241009180824-f66d83c29e7c
 )
 
 require (
